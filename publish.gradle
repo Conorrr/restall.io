@@ -8,3 +8,4 @@ githubPages {
     from file('CNAME')
     from file("$buildDir/jbake")
   }
+}

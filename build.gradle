@@ -7,7 +7,7 @@ buildscript {
 
   dependencies { 
     classpath 'org.asciidoctor:asciidoctor-java-integration:0.1.4'
-    classpath 'org.freemarker:freemarker:2.3.19'
+    classpath 'org.freemarker:freemarker:2.3.23'
   }
 }
 
