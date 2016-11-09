@@ -1,0 +1,10 @@
+plugins {
+  id "org.ajoberstar.github-pages" version "1.6.0"
+}
+
+githubPages {
+  repoUri = 'git@github.com:Conorrr/restall.io.git'
+  pages {
+    from file('CNAME')
+    from file("$buildDir/jbake")
+  }

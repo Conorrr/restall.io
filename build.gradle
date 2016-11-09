@@ -1,0 +1,29 @@
+buildscript {
+  repositories {
+      mavenLocal()
+      mavenCentral()   
+      jcenter()
+  }
+
+  dependencies { 
+    classpath 'org.asciidoctor:asciidoctor-java-integration:0.1.4'
+    classpath 'org.freemarker:freemarker:2.3.19'
+  }
+}
+
+plugins {
+    id 'me.champeau.jbake' version '0.2'
+    id "com.bluepapa32.watch" version "0.1.5"
+}
+
+watch {
+  jbake {
+    files fileTree(dir: 'src')
+    tasks 'jbake'
+  }
+}
+
+task publish(type: GradleBuild) {
+    buildFile = 'publish.gradle'
+    tasks = ['publishGhPages']
+}
