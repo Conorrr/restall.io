@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
+  <#--<channel>
     <title>Conor Restall's blog</title>
     <link>${config.site_host}</link>
     <atom:link href="${config.site_host}/feed.xml" rel="self" type="application/rss+xml" />
@@ -23,5 +23,5 @@
     </item>
     </#list>
 
-  </channel> 
+  </channel> -->
 </rss>

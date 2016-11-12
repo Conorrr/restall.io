@@ -1,0 +1,51 @@
+.icon-link:before, .icon-link:after {
+    vertical-align:middle;
+}
+
+#github-link:after {
+    padding-left:4px;
+    content: "Github";
+}
+#github-link:before {
+    content: "\f09b";
+    font-size: 20px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+#twitter-link:after {
+    padding-left:4px;
+    content: "Twitter";
+}
+#twitter-link:before {
+    content: "\f099";
+    font-size: 20px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+#linkedin-link:after {
+    padding-left:4px;
+    content: "LinkedIn";
+}
+#linkedin-link:before {
+    content: "\f0e1";
+    font-size: 20px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+@media (min-width: 768px){
+    #github-link:after {
+        padding-left:4px;
+    }
+    #github-link:after, #twitter-link:after, #linkedin-link:after {
+        content:"";
+    }
+
+}

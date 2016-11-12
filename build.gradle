@@ -8,22 +8,32 @@ buildscript {
   dependencies { 
     classpath 'org.asciidoctor:asciidoctor-java-integration:0.1.4'
     classpath 'org.freemarker:freemarker:2.3.23'
+    classpath 'io.restall:http-server:0.1-SNAPSHOT'
   }
 }
 
 plugins {
-    id 'me.champeau.jbake' version '0.2'
-    id "com.bluepapa32.watch" version "0.1.5"
+  id 'me.champeau.jbake' version '0.2'
+  // id "com.bluepapa32.watch" version "0.1.5"
 }
 
-watch {
-  jbake {
-    files fileTree(dir: 'src')
-    tasks 'jbake'
-  }
+apply plugin: 'io.restall.http-server'  
+
+// watch {
+//   jbake {
+//     files fileTree(dir: 'src')
+//     tasks ' jbake'
+//   }
+// }
+
+// watchRun.dependsOn httpStart
+// watchRun.finalizedBy httpStop
+
+httpServer {
+  basePath "build/jbake"
 }
 
 task publish(type: GradleBuild) {
-    buildFile = 'publish.gradle'
-    tasks = ['publishGhPages']
+  buildFile = 'publish.gradle'
+  tasks = ['publishGhPages']
 }

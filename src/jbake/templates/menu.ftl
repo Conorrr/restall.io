@@ -7,24 +7,35 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+            <a class="navbar-brand" href="/index.html">${config.site_title}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="/index.html">Home</a>
                 </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="post.html">Sample Post</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
+                <#list published_pages as page>
+                    <li>
+                        <a href="/${page.uri}">${page.title}</a>
+                    </li>
+                </#list>
+                <#if config.github_username??>
+                    <li>
+                        <a id="github-link" class="icon-link" href="https://github.com/${config.github_username}"></a>
+                    </li>
+                </#if>
+                <#if config.twitter_username??>
+                    <li>
+                        <a id="twitter-link" class="icon-link" href="https://twitter.com/${config.twitter_username}"></a>
+                    </li>
+                </#if>
+                <#if config.twitter_username??>
+                    <li>
+                        <a id="linkedin-link" class="icon-link" href="https://www.linkedin.com/in/${config.linkedin_userid}"></a>
+                    </li>
+                </#if>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

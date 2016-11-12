@@ -1,0 +1,24 @@
+= My first post
+Conor Restall
+2013-10-17
+:jbake-type: post
+:jbake-tags: practice, demo, first
+:jbake-status: published
+:title-image: about-bg.jpg
+
+== This is what a post will look like
+
+some stuff will go in here
+
+=== there might even be a h3 heading
+
+and then some more stuff
+
+WARNING: and a warning
+
+```java
+
+String likeThis = "how about some java";
+String yea = "that would be neat";
+
+```

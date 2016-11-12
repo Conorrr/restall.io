@@ -1,0 +1,11 @@
+= About
+Conor Restall
+:jbake-type: page
+:jbake-status: published
+:subtitle: This is a subtitle
+:title-image: about-bg.jpg
+~~~~~~
+
+== TODO
+
+I will write about myself here
