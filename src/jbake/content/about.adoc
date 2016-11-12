@@ -4,7 +4,7 @@ Conor Restall
 :jbake-status: published
 :subtitle: This is a subtitle
 :title-image: about-bg.jpg
-~~~~~~
+
 
 == TODO
 

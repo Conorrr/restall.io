@@ -7,7 +7,7 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="/index.html">${config.site_title}</a>
+            <a class="navbar-brand" href="/index.html">${config.site_name}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,6 +34,11 @@
                 <#if config.twitter_username??>
                     <li>
                         <a id="linkedin-link" class="icon-link" href="https://www.linkedin.com/in/${config.linkedin_userid}"></a>
+                    </li>
+                </#if>
+                <#if config.rss?? && config.rss?boolean>
+                    <li>
+                        <a id="rss-link" class="icon-link" href="/feed.xml"></a>
                     </li>
                 </#if>
             </ul>

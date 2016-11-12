@@ -1,9 +1,9 @@
 = Projects
 Conor Restall
 :jbake-type: page
-:jbake-status: unpublished
+:jbake-status: draft
 :title-image: about-bg.jpg
-~~~~~~
+
 
 == Gradle http server plugin
 

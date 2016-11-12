@@ -38,13 +38,25 @@
     font-weight: normal;
     text-decoration: inherit;
 }
+#rss-link:after {
+    padding-left:4px;
+    content: "RSS";
+}
+#rss-link:before {
+    content: "\f143";
+    font-size: 20px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
 
 
 @media (min-width: 768px){
     #github-link:after {
         padding-left:4px;
     }
-    #github-link:after, #twitter-link:after, #linkedin-link:after {
+    #github-link:after, #rss-link:after, #twitter-link:after, #linkedin-link:after {
         content:"";
     }
 

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Conor Restall">
 
-    <title>Clean Blog - About</title>
+    <title>${config.site_name}<#if content.title??> - ${content.title}</#if></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,11 +21,6 @@
 
     <!-- Asciidoc formatting -->
     <link href="/css/asciidoc.css" rel="stylesheet" type="text/css">
-
-    <!--Code highlighting-->
-    <!--More languages can be added by manually downloding them here https://highlightjs.org/download/--->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
 
     <!-- Custom Fonts -->
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">   

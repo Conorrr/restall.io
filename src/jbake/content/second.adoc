@@ -1,0 +1,14 @@
+= My second post
+Conor Restall
+2013-10-18
+:subtitle: some subtitle for second post
+:jbake-type: post
+:jbake-tags: practice, demo, second
+:jbake-status: published
+:title-image: home-bg.jpg
+
+++++
+<!-- more -->
+++++
+
+== This is what a post will look like
