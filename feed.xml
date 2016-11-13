@@ -8,29 +8,10 @@
     <atom:link href="http://restall.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>A blog by Conor Restall regarding anything and everything technical.</description>
     <language>en-gb</language>
-    <pubDate>Sun, 13 Nov 2016 12:17:10 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Nov 2016 12:17:10 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Nov 2016 12:23:02 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Nov 2016 12:23:02 +0000</lastBuildDate>
 
 
-    <item>
-      <title>My second post</title>
-      <link>http://restall.io/second.html</link>
-      <pubDate>Fri, 18 Oct 2013 00:00:00 +0100</pubDate>
-      <guid isPermaLink="false">second.html</guid>
-        <description>
-  &lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;!-- more --&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;_this_is_what_a_post_will_look_like&quot;&gt;This is what a post will look like&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-  </description>
-    </item>
     <item>
       <title>My first post</title>
       <link>http://restall.io/test-post.html</link>
