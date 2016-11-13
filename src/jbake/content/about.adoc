@@ -3,9 +3,16 @@ Conor Restall
 :jbake-type: page
 :jbake-status: published
 :subtitle: This is a subtitle
-:title-image: about-bg.jpg
+:title-image: about-bg.png
 
 
-== TODO
+My name is Conor Restall I live in the UK near to Sheffield.
 
-I will write about myself here
+I am a senior software developer currently working for Capital One UK. All views expressed on this blog are my own.
+
+I consider myself a web developer with broad interests in everything software from Continuous Integration to API Design to Performance Testing.
+
+Currently trying to learn Clojure.
+
+
+This blog is generated with http://jbake.org[JBake] and the theme is based on https://github.com/BlackrockDigital/startbootstrap-clean-blog[startbootstrap-clean-blog]. You can view my source for the whole blog on https://github.com/Conorrr/restall.io[github].

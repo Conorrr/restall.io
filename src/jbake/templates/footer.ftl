@@ -21,15 +21,8 @@
     <script src="/js/clean-blog.min.js"></script>
 
     <!--Code highlighting-->
-
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=${config.prettify_theme}"></script>
     
-    <style>
-    li.L0, li.L1, li.L2, li.L3,
-    li.L5, li.L6, li.L7, li.L8
-    { list-style-type: decimal !important }
-    </style>
-
 </body>
 
 </html>

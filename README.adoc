@@ -1,6 +1,69 @@
-# restall.io
-JBake for restall.io
+== Work in progress
 
-Blog template is based on
+JBake site for https://restall.io[restall.io]
 
 Template based on https://github.com/BlackrockDigital/startbootstrap-clean-blog[startbootstrap-clean-blog]
+
+The blog uses https://github.com/google/code-prettify[code-prettify] for syntax highlighting.
+
+
+== Usage
+
+If you want to use my blog as a starting point to create a similar JBake blog it's dead easy.
+
+Firstly you should familiarise yourself with http://jbake.org/[JBake]. I have tried not to hard code anything specific to my blog into the template, so you should only need to modigy `jbake.properties` and and your own content.
+
+My content is all written in http://asciidoctor.org/[Asciidoc] but you can use any format you wish.
+
+=== Gradle
+
+TODO: explain how to use current gradle config, to generate site and publish it
+
+=== Adding new pages
+
+To add a new page copy `projects.adoc` a new link should appear in the menu bar at the top automatically.
+
+
+== TODO
+* Write some blog posts
+* Remove dependencies on other sites. E.G. Google Fonts
+* Add Disqus
+* Add WebP support to template
+
+== Blog Post Ideas
+* Why JBake?
+  ** Why Asciidoctor?
+  ** Why freemarker
+* Understanding Java logging libraries
+* Learning clojure
+* Automated builds are not CI
+* Projects that are easy to start are often hard to maintain
+* Obvious solutions aren't easy to find
+* Blog post meta
+  ** Keeping posts short, better to split a long posts into many parts
+* Tech test & interview thoughts
+  ** What to look for
+  ** Asking candidates to solve specific open source issues
+* Prox-t
+* Greeb
+* Migrating Greeb to Kotlin
+* X Minute read
+  ** Implementing in
+  ** Downsides
+    *** Different reading speeds
+    *** Different comprehension speeds
+    *** Takes longer to read and understand code examples
+  ** Upsides
+    *** Give the reader an idea of how long the post it
+  ** Alternatives
+    *** Has to be in a unit that is easy for the reader to understand
+* Brain dump blogs posts
+  ** Keep them short
+  ** note them with brain dump
+  ** revisit them, you'll probanly change your mind on it after some more thought
+* How to affect peoples perception of others.
+* Data types in java
+  ** Precompiler that generates them
+* Let things fail
+  ** Propping things up and continuing doesn't help in the long run
+* API Design
