@@ -4,7 +4,7 @@ Conor Restall
 :subtitle: some subtitle for second post
 :jbake-type: post
 :jbake-tags: practice, demo, second
-:jbake-status: published
+:jbake-status: draft
 :title-image: home-bg.jpg
 
 ++++
