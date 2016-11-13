@@ -1,0 +1,8 @@
+= 404
+Conor Restall
+:jbake-type: page
+:jbake-status: 404
+:subtitle: Page not found
+:title-image: about-bg.png
+
+http://restall.io/[<- Return home]
