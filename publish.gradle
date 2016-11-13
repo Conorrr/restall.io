@@ -6,6 +6,8 @@ githubPages {
   repoUri = 'git@github.com:Conorrr/restall.io.git'
   pages {
     from file('CNAME')
-    from file("$buildDir/jbake")
+    from(file("$buildDir/jbake")){
+      into '.'
+    }
   }
 }

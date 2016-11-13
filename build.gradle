@@ -14,20 +14,9 @@ buildscript {
 
 plugins {
   id 'me.champeau.jbake' version '0.2'
-  // id "com.bluepapa32.watch" version "0.1.5"
 }
 
 apply plugin: 'io.restall.http-server'  
-
-// watch {
-//   jbake {
-//     files fileTree(dir: 'src')
-//     tasks ' jbake'
-//   }
-// }
-
-// watchRun.dependsOn httpStart
-// watchRun.finalizedBy httpStop
 
 httpServer {
   basePath "build/jbake"
