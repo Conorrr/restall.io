@@ -2,9 +2,9 @@
 
 JBake site for https://restall.io[restall.io]
 
-Template based on https://github.com/BlackrockDigital/startbootstrap-clean-blog[startbootstrap-clean-blog]
+Template based on https://GitHub.com/BlackrockDigital/startbootstrap-clean-blog[startbootstrap-clean-blog]
 
-The blog uses https://github.com/google/code-prettify[code-prettify] for syntax highlighting.
+The blog uses https://GitHub.com/google/code-prettify[code-prettify] for syntax highlighting.
 
 
 == Usage
@@ -23,6 +23,19 @@ TODO: explain how to use current gradle config, to generate site and publish it
 
 To add a new page copy `projects.adoc` a new link should appear in the menu bar at the top automatically.
 
+=== GitHub Pages
+
+If you have not forked the project and wish to publish your blog on GitHub pages then you will need to set up your own `gh-pages` branch.
+
+0. Create an orphaned branch. `git checkout --orphan gh-pages`
+0. Delete all files on the new branch `rm - .gitignore`, `git rm -rf .`
+0. Create a temporary file `touch temp`
+0. Commit the temp file `git add temp`, `git commit -m 'initial commit'`
+0. Push the branch to GitHub `git push -u origin gh-pages`
+0. Checkout master `git checkout master`
+0. Generate your site and push it `gradle jbake publish`
+
+You can find more information about https://help.github.com/articles/creating-project-pages-using-the-command-line/[GitHub Help site].
 
 == TODO
 * Write some blog posts
