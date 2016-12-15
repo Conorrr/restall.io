@@ -1,0 +1,39 @@
+= Interviews are Inorganic
+Conor Restall
+2016-12-14
+:jbake-type: post
+:jbake-tags: interviews
+:jbake-status: draft
+:title-image: post-bg.jpg
+
+// image can be something like a meaning less diagram on a whiteboard
+
+I wrote notes for this blog post a few weeks ago but like the majority of the notes I write I never got around to writing much up.  Earlier today I stumbled across a few tweets by https://twitter.com/ieatkillerbees[Samantha Quiñones] which really resonated with the ideas I had had a couple of weeks earlier.  Yes I realise that these idea's aren't particularly novel but I still see interviews being run in a sloppy fashion anyway here are my 2 cents...
+
+++++
+<!-- more -->
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">In 20 years of engineering I&#39;ve never said, &quot;thank goodness we hired someone who can reverse a b tree on a whiteboard while strangers watch&quot;</p>&mdash; Samantha 🐝 Quiñones (@ieatkillerbees) <a href="https://twitter.com/ieatkillerbees/status/808831573785243649">14 December 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+++++
+
+I would encourage anyone reading this to have a read through some of the replies and some of Samantha's other tweets.
+
+Interviews are unlike any other situation we come across in everyday life.  This is primarily because the person asking the question usually already knows (or at least thinks they know) the answer to the question. The interviewee usually know very little about
+
+These 2 reasons combined make it very hard for an 
+
+If you are trying to see how people approach problems then the you are not going to see how they would really solve the problem by telling them they have to solve it as quickly as possible . Whilst the time element isn't explicit it definately exists, even if you tell the candiate to take their time that really only means a couple
+
+"I try to solve the problem as quickly as I possibly can using nothing but a pen". It much more likely that people will do some/all of the following: take their time to think it over, take a break and maybe do something else, have a google around and see how other people have solved similar problems or speak the problem over with colleagues.
+
+This is all well and good but what should you do if you find yourself standing in front of a few people with a whiteboard pen in your hand and problem which you have no idea how to solve. This is my approach to solving these problems and might not be a good way for you
+
+My approach in these whiteboardy situations is not to try and solve the problem straight away I start by writing out the obvious usually really inefficent solution. Next I take a brute force approach and just brain dump every possible next step leaving a pause in between idea to think about whether it will work. Usually at this point I find I don't have to think too hard about whether I'm heading in the right direction, you can expect that one of the interviewers to nod or give you some sort of prompt when you going the right way.
+
+Whilst most people argue that whiteboard interviews are about looking at how people solve problems and that it's not vitally important the interviewee gets the perfect solution,  actually getting the right answer is really good. It's hard to argue that someones way of solving a problem is bad when they actually get the right solution.
+
+To handle these sort of interviews is a skill, it can be learnt. But for a company it's not a particularly valuable skill. I know plenty of great developers who struggle with whiteboard interviews
+
+TL;DR don't expect to see the best in people when you put them on the spot.
